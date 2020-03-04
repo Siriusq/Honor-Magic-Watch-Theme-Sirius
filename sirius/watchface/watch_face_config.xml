@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="390">
+        <Widget widget_type="IMAGE">
+            <Image y="0" type="static" label="layer 18 - 单图" res_name="A100_062.png" x="0"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image y="0" type="static" label="layer 17 - 背景" res_name="A100_061.png" x="0"/>
+        </Widget>
+        <Widget widget_type="CIRCLE">
+            <Circle drawable_x="0" line_width="20" type="static" drawable_y="0" precision="5" circle_y="195" drawable_width="390" circle_x="195" arc_start="0" update_arc_start="0" drawable_height="390" arc_end="360" circle_r="190" data_type="DATA_STEPS_RATIO" label="layer 16 - 步数圈圈" res_name="A100_060.png"/>
+        </Widget>
+        <Widget widget_type="CIRCLE">
+            <Circle drawable_x="0" line_width="30" type="static" drawable_y="0" precision="5" circle_y="195" drawable_width="390" circle_x="195" arc_start="0" update_arc_start="0" drawable_height="390" arc_end="360" circle_r="170" data_type="DATA_POWER_RATIO" label="layer 15 - 电量圈圈" res_name="A100_059.png"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHTWOWILDCARD">
+            <TextAreaWithTwoWildCard data2_type="DATA_DATE" font_type="T_HYQIHEI_60S_42" drawable_x="70" data_connector_type="CONN_SLASH" type="static" drawable_y="98" color_green="217" color_red="255" drawable_width="130" alignment_type="CENTER" color_blue="102" line_spacing="0" drawable_height="38" data_type="DATA_MONTH" alpha="255" label="layer 14 - 日期"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard font_type="T_HYQIHEI_60S_36" drawable_x="112" type="static" drawable_y="49" color_green="225" color_red="172" drawable_width="70" alignment_type="LEFT" color_blue="249" line_spacing="0" drawable_height="33" data_type="DATA_POWER" alpha="255" label="layer 13 - 电量显示"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="70" type="static" drawable_y="155" data_type="DATA_HOUR_HIGH" label="layer 12 - 小时1"/>
+            <ImagesList res_7="" res_12="" res_4="" res_9="" res_13="" res_2="A100_058.png" res_1="A100_057.png" res_8="" res_0="A100_056.png" res_6="" res_11="" res_14="" res_3="" res_10="" res_5=""/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="126" type="static" drawable_y="155" data_type="DATA_HOUR_LOW" label="layer 11 - 小时2"/>
+            <ImagesList res_7="A100_053.png" res_12="" res_4="A100_050.png" res_9="A100_055.png" res_13="" res_2="A100_048.png" res_1="A100_047.png" res_8="A100_054.png" res_0="A100_046.png" res_6="A100_052.png" res_11="" res_14="" res_3="A100_049.png" res_10="" res_5="A100_051.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="210" type="static" drawable_y="155" data_type="DATA_MINITE_HIGH" label="layer 10 - 分钟1"/>
+            <ImagesList res_7="A100_043.png" res_12="" res_4="A100_040.png" res_9="A100_045.png" res_13="" res_2="A100_038.png" res_1="A100_037.png" res_8="A100_044.png" res_0="A100_036.png" res_6="A100_042.png" res_11="" res_14="" res_3="A100_039.png" res_10="" res_5="A100_041.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="266" type="static" drawable_y="155" data_type="DATA_MINITE_LOW" label="layer 9 - 分钟2"/>
+            <ImagesList res_7="A100_033.png" res_12="" res_4="A100_030.png" res_9="A100_035.png" res_13="" res_2="A100_028.png" res_1="A100_027.png" res_8="A100_034.png" res_0="A100_026.png" res_6="A100_032.png" res_11="" res_14="" res_3="A100_029.png" res_10="" res_5="A100_031.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="72" type="static" drawable_y="246" data_type="DATA_WEATHERTYPE" label="layer 8 - 天气图标"/>
+            <ImagesList res_7="A100_022.png" res_12="" res_4="A100_019.png" res_9="A100_024.png" res_13="" res_2="A100_017.png" res_1="A100_016.png" res_8="A100_023.png" res_0="A100_015.png" res_6="A100_021.png" res_11="" res_14="" res_3="A100_018.png" res_10="A100_025.png" res_5="A100_020.png"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard font_type="T_HYQIHEI_60S_42" drawable_x="142" type="static" drawable_y="299" color_green="237" color_red="67" drawable_width="150" alignment_type="CENTER" color_blue="192" line_spacing="0" drawable_height="38" data_type="DATA_STEPS" alpha="255" label="layer 7 - 步数"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard font_type="T_HYQIHEI_60S_36" drawable_x="90" type="static" drawable_y="245" color_green="255" color_red="255" drawable_width="80" alignment_type="RIGHT" color_blue="255" line_spacing="0" drawable_height="33" data_type="DATA_TEMPERATURE" alpha="255" label="layer 6 - 温度"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="222" type="static" drawable_y="101" data_type="DATA_WEEK" label="layer 5 - 星期"/>
+            <ImagesList res_7="A100_014.png" res_12="" res_4="A100_011.png" res_9="" res_13="" res_2="A100_009.png" res_1="A100_008.png" res_8="" res_0="A100_007.png" res_6="A100_013.png" res_11="" res_14="" res_3="A100_010.png" res_10="" res_5="A100_012.png"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard font_type="T_HYQIHEI_60S_36" drawable_x="240" type="static" drawable_y="49" color_green="63" color_red="255" drawable_width="70" alignment_type="LEFT" color_blue="63" line_spacing="0" drawable_height="33" data_type="DATA_HEARTRATE" alpha="255" label="layer 4 - 心率"/>
+        </Widget>
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard font_type="T_HYQIHEI_60S_36" drawable_x="260" type="static" drawable_y="246" color_green="241" color_red="255" drawable_width="100" alignment_type="LEFT" color_blue="235" line_spacing="0" drawable_height="33" data_type="DATA_AILTITUDE" alpha="255" label="layer 3 - 海拔"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="326" type="static" drawable_y="179" data_type="DATA_UNREADMSG_STATE" label="layer 2 - 未读消息"/>
+            <ImagesList res_7="" res_12="" res_4="" res_9="" res_13="" res_2="" res_1="A100_006.png" res_8="" res_0="A100_005.png" res_6="" res_11="" res_14="" res_3="" res_10="" res_5=""/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="38" type="static" drawable_y="160" data_type="DATA_AMPM" label="layer 1 - 上午下午"/>
+            <ImagesList res_7="" res_12="" res_4="" res_9="" res_13="" res_2="A100_004.png" res_1="A100_003.png" res_8="" res_0="A100_002.png" res_6="" res_11="" res_14="" res_3="" res_10="" res_5=""/>
+        </Widget>
+    </TemplateWatch>
+</providers>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>sirius</title>
+    <title-cn>sirius</title-cn>
+    <author>siriusq</author>
+    <designer>siriusq</designer>
+    <screen>HWHD01</screen>
+    <version>3.1.6</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+    <briefinfo>{"zh_CN":"sirius"}</briefinfo>
+</HwTheme>
